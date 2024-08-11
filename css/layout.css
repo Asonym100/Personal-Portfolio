@@ -52,8 +52,9 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
    text-align: center;
+   padding-bottom: 0;
+   margin-bottom: 0;
 }
 
 header .banner-text { width: 100%; }
@@ -88,6 +89,8 @@ header .social {
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   margin-bottom: 0;
+   padding-bottom: 0;
 }
 header .social li {
    display: inline-block;
@@ -111,6 +114,8 @@ header .scrolldown a {
    line-height: 42px;
    color: #fff;
    border-radius: 100%;
+   margin-top: 10px; /* Adjust as necessary */
+   padding-top: 0;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
